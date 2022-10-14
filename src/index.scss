@@ -86,7 +86,7 @@ legend {
 @font-face {
   font-family: 'Nekst-Black';
   src: local('Nekst-Black'),
-    url('../assets/fonts/nekst/Nekst-Black.woff') format('woff');
+    url('shared/assets/fonts/nekst/Nekst-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
@@ -95,7 +95,7 @@ legend {
 @font-face {
   font-family: 'Gilroy';
   src: local('Gilroy'),
-    url('../assets/fonts/gilroy/Gilroy-Light.woff') format('woff');
+    url('shared/assets/fonts/gilroy/Gilroy-Light.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
