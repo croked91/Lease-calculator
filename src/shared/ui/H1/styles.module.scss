@@ -1,0 +1,23 @@
+$black: #111111;
+
+.h1 {
+    font-family: "Nekst-Black";
+    line-height: 90%;
+    color: $black;
+}
+
+@media (max-width: 1440px) {
+    .h1 {
+        font-size: 54px;
+        width: 753px;
+        height: 98px;
+    }
+}
+
+@media (max-width: 320px) {
+    .h1 {
+        font-size: 34px;
+        width: 279px;
+        height: 124px;
+    }
+}

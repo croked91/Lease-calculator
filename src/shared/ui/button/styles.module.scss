@@ -1,0 +1,106 @@
+.button {
+    position: relative;
+    color: #ffffff;
+    background-color: #ff9514;
+    border-radius: 40px;
+    font-family: "Nekst-Black";
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.button:hover {
+    background-color: #111111;
+}
+
+.button:active {
+    background-color: #575757;
+}
+
+.button:disabled {
+    opacity: 0.33;
+}
+
+.buttons {
+  cursor: default;
+  opacity: 0.33;
+  position: relative;
+  color: #ffffff;
+  background-color: #ff9514;
+  border-radius: 40px;
+  font-family: "Nekst-Black";
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.buttons::after {
+    box-sizing: border-box;
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 2px solid transparent;
+    border-top-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+    border-right-color: #FFFFFF;
+    border-radius: 50%;
+    animation: button-loading-spinner 1s ease infinite;
+  }
+  
+  @keyframes button-loading-spinner {
+    from {
+      transform: rotate(0turn);
+    }
+  
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+  @media (max-width: 1440px) {
+    .button {
+      width: 426px;
+      height: 68px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .button {
+      width: 345px;
+      height: 68px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .button {
+      width: 280px;
+      height: 60px;
+    }
+  }
+
+
+  @media (max-width: 1440px) {
+    .buttons {
+      width: 426px;
+      height: 68px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .buttons {
+      width: 345px;
+      height: 68px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .buttons {
+      width: 280px;
+      height: 60px;
+    }
+  }
+

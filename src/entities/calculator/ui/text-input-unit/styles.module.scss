@@ -1,0 +1,57 @@
+$grayBg: #F3F3F4;
+
+
+
+.inputBlockWithTitle {
+    padding-bottom: 5px;
+    width: 427px;
+    height: 119px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputBlock {
+    border: 2px solid $grayBg;
+    background-color: $grayBg;
+    width: 427px;
+    height: 68px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.inputTextBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 7px;
+    align-items: center;
+}
+
+.inputPercentBlock {
+    background-color: #EBEBEC;
+    border-radius: 16px;
+    font-family: 'Nekst-Black';
+    font-size: 20px;
+    line-height: 120%;
+    color: #575757;
+    padding: 17px 15px;
+    width: 69px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.focusedInputBlock {
+    border: 2px solid #F3F3F4;
+    width: 427px;
+    height: 68px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}

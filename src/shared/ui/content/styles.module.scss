@@ -1,0 +1,29 @@
+$gray: #575757;
+$gray1: #333333;
+
+.content {
+  font-family: "Nekst-Black";
+  line-height: 90%;
+}
+
+@media (max-width: 1440px) {
+  .content {
+    font-size: 54px;
+    line-height: 90%;
+    color: $gray;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content {
+    color: $gray1;
+  }
+}
+
+@media (max-width: 320px) {
+  .content {
+    color: $gray1;
+    font-size: 22px;
+    line-height: 20px;
+  }
+}

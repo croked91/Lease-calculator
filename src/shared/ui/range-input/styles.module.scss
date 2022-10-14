@@ -1,0 +1,140 @@
+.range {
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: block;
+    width: 379px;
+    height: 2px;
+    background-color: transparent;
+    outline: none;
+    position: absolute;
+    margin: auto;
+    left: 0; bottom: 0; right: 0;
+    z-index: 2;
+}
+
+
+.range::-webkit-slider-runnable-track{
+    -webkit-appearance: none;
+    height: 2px;
+}
+.range::-moz-track{
+    -moz-appearance: none;
+    height: 2px;
+}
+.range::-ms-track{
+    appearance: none;
+    height: 2px;
+}
+
+.range:disabled {
+    height: 2px;
+}
+
+.range:disabled::-webkit-slider-runnable-track{
+    height: 2px;
+}
+
+.range:disabled::-moz-track{
+    height: 2px;
+}
+
+.range:disabled::-ms-track{
+    height: 2px;
+}
+
+.range:disabled {
+    height: 2px;
+}
+
+.range:hover::-webkit-slider-runnable-track{
+    height: 1px;
+}
+
+.range:hover::-moz-track{
+    height: 1px;
+}
+
+.range:hover::-ms-track{
+    height: 1px;
+}
+
+.range:active {
+    height: 1px;
+}
+
+.range:active::-webkit-slider-runnable-track{
+    height: 1px;
+}
+
+.range:active::-moz-track{
+    height: 1px;
+}
+
+.range:active::-ms-track{
+    height: 1px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: #FF9514;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -8px;
+    border: none;
+}
+.range::-moz-range-thumb{
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: #FF9514;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -8px;
+    border: none;
+}
+.range::-ms-thumb{
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: #FF9514;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -8px;
+    border: none;
+}
+
+.range:hover::-webkit-slider-thumb{
+    height: 24px;
+    width: 24px;
+    margin-top: -10px;
+}
+
+.range:active::-webkit-slider-thumb{
+    height: 20px;
+    width: 20px;
+    margin-top: -8px;
+}
+
+.underline {
+    width: 379px;
+    height: 1px;
+    background-color: #E1E1E1;
+    position: absolute;
+    margin: auto;
+    left: 0; bottom: 0; right: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input{
+    -moz-appearance:textfield;
+    margin: 0;
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+.calculator {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 47px;
+    padding-right: 48px;
+    padding-top: 24px;
+}
+
+.block {
+    height: 244px;
+    width: 427px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.opacity {
+    opacity: 0.33;
+}

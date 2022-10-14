@@ -1,0 +1,46 @@
+$grayBg: #F3F3F4;
+
+
+
+.inputBlockWithTitle {
+    padding-bottom: 5px;
+    width: 427px;
+    height: 119px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputBlock {
+    border: 2px solid $grayBg;
+    background-color: $grayBg;
+    width: 427px;
+    height: 68px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.focusedInputBlock {
+    border: 2px solid #F3F3F4;
+    width: 427px;
+    height: 68px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.inputTextBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: center;
+    font-size: 30px;
+}
+
